@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Perl module designed for converting CSV files into XML.
 
-%description(pl):
+%description -l pl
 Modu³ Perla s³u¿±cy do konwersji plików w formacie CSV do XML-a.
 
 %prep
