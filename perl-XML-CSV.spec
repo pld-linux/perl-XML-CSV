@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	CSV
 Summary:	XML::CSV - Perl extension converting CSV files to XML
-Summary(pl):	XML::CSV - rozszerzenie Perla do konwersji plikÛw CSV do XML-a
+Summary(pl.UTF-8):   XML::CSV - rozszerzenie Perla do konwersji plik√≥w CSV do XML-a
 Name:		perl-XML-CSV
 Version:	0.15
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Perl module designed for converting CSV files into XML.
 
-%description -l pl
-Modu≥ Perla s≥uø±cy do konwersji plikÛw w formacie CSV do XML-a.
+%description -l pl.UTF-8
+Modu≈Ç Perla s≈Çu≈ºƒÖcy do konwersji plik√≥w w formacie CSV do XML-a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
