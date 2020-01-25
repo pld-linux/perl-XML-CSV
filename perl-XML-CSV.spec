@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	CSV
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::CSV - Perl extension converting CSV files to XML
 Summary(pl.UTF-8):	XML::CSV - rozszerzenie Perla do konwersji plików CSV do XML-a
 Name:		perl-XML-CSV
